@@ -1,3 +1,9 @@
 .header{
-    
+background-color: #7614D9;
+}
+
+.logo{
+    display: block;
+    width: 30px;
+    transform: rotate(-15deg);
 }
