@@ -1,9 +1,15 @@
-.header{
+
+header{
 background-color: #7614D9;
 }
 
 .logo{
-    display: block;
-    width: 30px;
+    width: 80px;
+    border-radius: 50%;
+    
     transform: rotate(-15deg);
+}
+
+nav{
+    margin-left: 100px;
 }
