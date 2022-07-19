@@ -1,15 +1,32 @@
-
-header{
-background-color: #7614D9;
+@font-face {
+    font-family: "open sans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-.logo{
-    width: 80px;
-    border-radius: 50%;
-    
+.new, 
+.coming_soon,
+.sale {
+    font-family: "open sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome_text {
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to right, #7614D9, #022859);
+}
+
+.logo {
+    width: 100px;    
     transform: rotate(-15deg);
 }
 
-nav{
+nav a {
+    color: #fff;
     margin-left: 100px;
+}
+
+body {
+    background-color: #7614D9;
+    color: #fff;
 }
