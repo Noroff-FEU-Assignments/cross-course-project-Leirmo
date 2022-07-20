@@ -9,7 +9,47 @@
     font-family: "open sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #7614D9;
     text-align: center;
+    border-radius: 10%;
 }
+
+.new {
+    margin: 70px 1600px 10px 90px;
+    padding: 30px;
+}
+
+.new_image {
+    width: 400px;
+}
+
+.coming_soon {
+    margin: 70px 850px 100px 850px;
+    padding: 30px;
+}
+
+.coming_soon_image {
+    width: 400px;
+}
+
+.sale {
+    margin: 70px 90px 10px 1600px;
+    padding: 30px;
+}
+
+.sale_image {
+    width: 400px;
+}
+
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
 .welcome_text {
     font-family: "Verdana", Geneva, Tahoma, sans-serif;
     position: center;
@@ -45,7 +85,7 @@ nav,
 nav {
     position: absolute;
     background: #0487D9;
-    top: 77px;
+    top: 72px;
     left: 0px;
 }
 
@@ -61,4 +101,9 @@ nav a {
 body {
     background-color: #022859;
     color: #fff;
+}
+
+.footer {
+    background-color: #7614D9;
+    
 }
