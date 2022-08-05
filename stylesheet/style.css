@@ -3,72 +3,30 @@
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-.new, 
-.coming_soon,
-.sale {
-    font-family: "open sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #7614D9;
-    text-align: center;
-    border-radius: 10%;
-}
-
-.new {
-    margin: 70px 1600px 10px 90px;
-    padding: 30px;
-}
-
-.new_image {
-    width: 400px;
-}
-
-.coming_soon {
-    margin: 70px 850px 100px 850px;
-    padding: 30px;
-}
-
-.coming_soon_image {
-    width: 400px;
-}
-
-.sale {
-    margin: 70px 90px 10px 1600px;
-    padding: 30px;
-}
-
-.sale_image {
-    width: 400px;
-}
-
 h1 {
     font-size: 60px;
 }
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p {
     font-size: 30px;
 }
 
-.welcome_text {
-    font-family: "Verdana", Geneva, Tahoma, sans-serif;
-    position: center;
-    text-align: center;
-    padding: 100px;
-}
-
+/*Header*/
 header {
     display: flex;
     align-items: center;
-    position: relative;
+    position: absolute;
     background-image: linear-gradient(to right, #7614D9, #022859);
-
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
-    margin-top: 5px;
-    margin-left: 40px;
-    margin-right: 50px;
+    margin: 5px 50px 10px 40px;
     width: 100px;    
     transform: rotate(-15deg);
 }
@@ -85,7 +43,7 @@ nav,
 nav {
     position: absolute;
     background: #0487D9;
-    top: 72px;
+    top: 82px;
     left: 0px;
 }
 
@@ -95,15 +53,78 @@ nav a {
     font-size: 40px;
     color: #fff;
     padding: 30px 40px;
-
 }
 
+/*Body*/
 body {
     background-color: #022859;
     color: #fff;
 }
 
-.footer {
+.welcome_text {
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    position: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.new, 
+.coming_soon,
+.sale {
+    font-family: "open sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #7614D9;
-    
+    text-align: center;
+    border-radius: 10%;
+
+}
+
+.new {
+    max-width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.new_image {
+    width: 200px;
+}
+
+.coming_soon {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.coming_soon_image {
+    width: 300px;
+}
+
+.sale {
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sale_image {
+    width: 300px;
+}
+
+footer {
+    background-color: #0487D9;
+    opacity: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.follow__us {
+    display: flex;
+
 }
