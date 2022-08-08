@@ -75,7 +75,6 @@ body {
     background-color: #7614D9;
     text-align: center;
     border-radius: 10%;
-
 }
 
 .new {
@@ -92,7 +91,7 @@ body {
 }
 
 .coming_soon {
-    max-width: 450px;
+    max-width: 320px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -101,30 +100,41 @@ body {
 }
 
 .coming_soon_image {
-    width: 300px;
+    width: 200px;
 }
 
 .sale {
-    max-width: 550px;
+    max-width: 320px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .sale_image {
-    width: 300px;
+    width: 200px;
 }
 
 footer {
+    position: relative;
     background-color: #0487D9;
-    opacity: 50%;
-    left: 0;
     bottom: 0;
+    left: 0;
     right: 0;
+    padding-top: 40px;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: row;
 }
 
 .follow__us {
-    display: flex;
+    position: absolute;
+}
 
+.Contact__us {
+    position: absolute;
+    right: 100px;
 }
