@@ -156,6 +156,7 @@ main {
 
 .content {
     display: flex;
+    justify-content: center;
 }
 
 .new, 
@@ -170,13 +171,13 @@ main {
 .sale_image {
     width: 200px;
     position: relative;
-    left: 50px;
+    left: 25px;
 }
 
 .right_button {
     position: relative;
     bottom: 80px;
-    left: 85px;
+    left: 60px;
     font-size: 50px;
     color: #0487D9;
 }
@@ -184,7 +185,7 @@ main {
 .left_button {
     position: relative;
     bottom: 145px;
-    right: 155px;
+    right: 161px;
     font-size: 50px;
     color: #0487D9;
 }
@@ -194,34 +195,36 @@ main {
     flex: 1;
 }
 
-.new {
+.p {
+    position: relative;
+    bottom: 250px;
 }
 
 .furius {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .forge_legend {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .black {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 /*Coming soon*/
@@ -235,37 +238,37 @@ main {
 .assassin {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 350px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .spacewar {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .racing {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .cyberpunk {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 /*Sale*/
@@ -279,27 +282,28 @@ main {
 .boxer {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .pingpong {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
-    min-width: 300px;
+    max-height: 540px;
+    max-width: 300px;
 }
 
 .superduper {
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 50;
+    padding: 10px;
     margin: 70px;
-    min-height: 540px;
+    max-height: 540px;
+    max-width: 300px;
     min-width: 300px;
 
 }
@@ -310,26 +314,28 @@ main {
     height: 350px;
     margin-top: 500px;
     background: #0487D9;
+    bottom: 0px;
+    width: 100%;
 }
 
 .footer__section {
     display: flex;
+    gap: 500px;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
-    width: 10%;
-    left: -50px;
 }
 
 .follow__us__section {
+    flex: 1;
     position: relative;
-    left: 70px;
+    left: 50px;
 }
 
 .follow__us {
     position: relative;
+    right: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 10%;
-    left: -50px;
 }
 
 .fa-instagram,
@@ -339,19 +345,16 @@ main {
     color: #fff;
     display: grid;
     text-align: center;
-    grid-gap: 10px;
     font-size: 40px;
-    margin-bottom: 40px;
+    padding: 10px 0 10px
 }
 
 .Contact__us__content {
+    flex: 1;
     position: relative;
-    display: grid;
 }
 
 .Contact__us {
     position: relative;
-    display: grid;
-    width: 10%;
     color: #fff;
 }
