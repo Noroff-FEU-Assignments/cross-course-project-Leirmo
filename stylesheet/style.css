@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: "open sans";
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
@@ -5,9 +10,11 @@
 
 h1 {
     font-size: 60px;
+    padding-bottom: 30px;
 }
 h2 {
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 h3 {
@@ -22,7 +29,7 @@ p {
 header {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative;
     background-image: linear-gradient(to right, #7614D9, #022859);
     top: 0;
     left: 0;
@@ -49,6 +56,7 @@ nav {
     background: #0487D9;
     top: 82px;
     left: 0px;
+    z-index: 8;
 }
 
 nav a {
@@ -137,21 +145,19 @@ a {
 
 /*Body*/
 body {
-    height: 100%;
     background-color: #022859;
     color: #fff;
 }
 
 main {
-    overflow: auto;
-    padding-bottom: 100px;
 }
 
 .welcome_text {
     font-family: "Verdana", Geneva, Tahoma, sans-serif;
     position: center;
     text-align: center;
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .content {
@@ -164,6 +170,7 @@ main {
 .sale {
     font-family: "open sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    flex: 1;
 }
 
 .new_image,
@@ -192,148 +199,170 @@ main {
 
 /*New*/
 .new_content {
-    flex: 1;
 }
 
 .p {
     position: relative;
-    bottom: 250px;
+    padding-top: 60px;
 }
 
 .furius {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
+    z-index: 1;
 }
 
 .forge_legend {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
+    z-index: 2;
 }
 
 .black {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
+    z-index: 3;
 }
 
 /*Coming soon*/
 .coming_soon_content {
-    flex: 1;
 }
 
 .coming_soon {
 }
 
 .assassin {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
+    z-index: 4;
 }
 
 .spacewar {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
+    z-index: 3;
 }
 
 .racing {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
+    z-index: 2;
 }
 
 .cyberpunk {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
 }
 
 /*Sale*/
 .sale_content {
-    flex: 1;
 }
 
 .sale {
 }
 
 .boxer {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
 }
 
 .pingpong {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
 }
 
 .superduper {
+    position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
     padding: 10px;
     margin: 70px;
-    max-height: 540px;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 300px;
     min-width: 300px;
 
 }
 
 /*Footer*/
-#footer {
-    position: relative;
-    height: 350px;
-    margin-top: 500px;
+footer {
+    position: absolute;
     background: #0487D9;
-    bottom: 0px;
+    height: 300px;
     width: 100%;
+    margin-top: 700px;
 }
 
 .footer__section {
     display: flex;
-    gap: 500px;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
 }
 
 .follow__us__section {
     flex: 1;
     position: relative;
+    top: 20px;
     left: 50px;
 }
 
 .follow__us {
-    position: relative;
-    right: 50px;
+    position: absolute;
+    left: 10px;
+    top: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -345,16 +374,18 @@ main {
     color: #fff;
     display: grid;
     text-align: center;
-    font-size: 40px;
-    padding: 10px 0 10px
+    font-size: 30px;
+    padding: 0 0 30px
 }
 
 .Contact__us__content {
     flex: 1;
     position: relative;
+    top: 20px;
+    left: 50px;
 }
 
 .Contact__us {
     position: relative;
-    color: #fff;
+    top: 90px;
 }
