@@ -11,11 +11,11 @@
 h1 {
     position: relative;
     font-size: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     bottom: 30px;
 }
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 20px;
 }
 
@@ -26,7 +26,7 @@ h3 {
 p {
     position: relative;
     font-size: 25px;
-    bottom: 50px;
+    bottom: 60px;
 }
 
 /*Header*/
@@ -80,7 +80,7 @@ a {
 }
 /*Header search bar*/
 .box-menu {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -137,7 +137,7 @@ a {
     color: #fff;
     font-size: 40px;
     position: relative;
-    right: 150px;
+    right: 110px;
 }
 
 .my_site {
@@ -153,12 +153,11 @@ body {
     color: #fff;
 }
 
-main {
+.main_content {
 }
 
 .welcome_text {
     font-family: "Verdana", Geneva, Tahoma, sans-serif;
-    position: center;
     text-align: center;
     padding-top: 100px;
 }
@@ -166,12 +165,12 @@ main {
 .content {
     display: flex;
     justify-content: center;
-
 }
 
 .new, 
 .coming_soon,
 .sale {
+    position: relative;
     font-family: "open sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     flex: 1;
@@ -180,45 +179,44 @@ main {
 .new_image,
 .coming_soon_image,
 .sale_image {
-    width: 200px;
+    width: 150px;
     position: relative;
     left: 25px;
 }
 
 .right_button {
     position: relative;
-    bottom: 80px;
-    left: 60px;
+    bottom: 63px;
+    left: 50px;
     font-size: 50px;
     color: #0487D9;
 }
 
 .left_button {
     position: relative;
-    bottom: 145px;
-    right: 161px;
+    bottom: 130px;
+    right: 128px;
     font-size: 50px;
     color: #0487D9;
 }
 
 /*New*/
-.new_content {
-}
 
-.p {
-    position: relative;
-    padding-top: 60px;
+.new {
+    flex: 1;
+}
+.new_content {
 }
 
 .furius {
     position: absolute;
     background-color: #7614D9;
-    border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    border-radius: 10%;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
     z-index: 1;
 }
 
@@ -226,11 +224,11 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
     z-index: 2;
 }
 
@@ -238,11 +236,11 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
     z-index: 3;
 }
 
@@ -257,11 +255,11 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
     z-index: 4;
 }
 
@@ -269,11 +267,11 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
     z-index: 3;
 }
 
@@ -281,11 +279,11 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
     z-index: 2;
 }
 
@@ -293,11 +291,11 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
 }
 
 /*Sale*/
@@ -311,34 +309,33 @@ main {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
 }
 
 .pingpong {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
 }
 
 .superduper {
     position: absolute;
     background-color: #7614D9;
     border-radius: 10%;
-    padding: 10px;
     margin: 70px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 300px;
-    min-width: 300px;
+    max-height: 430px;
+    min-height: 430px;
+    max-width: 250px;
+    min-width: 250px;
 }
 
 /*Footer*/
@@ -347,7 +344,7 @@ footer {
     background: #0487D9;
     height: 300px;
     width: 100%;
-    margin-top: 750px;
+    margin-top: 700px;
 }
 
 .footer__section {
@@ -360,7 +357,6 @@ footer {
     position: relative;
     top: 20px;
     left: 50px;
-    padding-right: 700px;
 }
 
 .follow__us {
@@ -382,16 +378,22 @@ footer {
     padding: 0 0 30px;
 }
 
-.contact__us__content {
+.contact__us__content 
+a {
     flex: 1;
     position: relative;
-    top: 20px;
     left: 0px;
+    color: #fff;
 }
 
-.Contact__us p {
+.Contact__us 
+p {
     position: relative;
     top: 10px;
     margin: 20px;
+}
+
+@media (min-width: 800px) {
+    
 }
 
