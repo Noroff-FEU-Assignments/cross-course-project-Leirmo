@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.about_two {
+    background-color: #022859; 
+    padding: 70px;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    margin: auto;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .about_content {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+    }
+    
+}
+
+@media (min-width: 850px) {
+    .about_content {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        margin: auto;
+    }
+    
+}
