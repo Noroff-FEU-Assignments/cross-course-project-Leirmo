@@ -1,22 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
+.about_content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: auto;
 }
 
 .about_two {
     background-color: #022859; 
-    padding: 70px;
-}
-
-.about_content {
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
     margin: auto;
 }
-
-
-
 
 @media (min-width: 600px) {
     .about_content {
@@ -34,5 +26,4 @@ body{
         padding: 40px;
         margin: auto;
     }
-    
 }

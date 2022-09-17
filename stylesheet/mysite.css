@@ -2,12 +2,11 @@
     padding: 50px;
     background-color: #022859;
     display: flex;
-    padding: 50px;
 
 }
 
 .profile_info {
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
     background-color: #0487D9;
@@ -25,6 +24,7 @@
     display: flex;
     flex-direction: column;
     max-width: 200px;
+    align-items: center;
     margin: auto;
     grid-gap: 50px;
     padding: 0 0 70px 0;
@@ -42,7 +42,7 @@
 .friends_content {
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    max-width: 200px;
     margin: auto;
     grid-gap: 40px;
     padding: 0 0 70px 0;
@@ -85,5 +85,12 @@
     .your_games {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    max-width: 500px;
+    }
+
+    .friends_content {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        max-width: 500px;
     }
 }

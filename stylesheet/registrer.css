@@ -1,0 +1,74 @@
+legend {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.registrer_form {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 25px;
+    background-color: #0487D9;
+    padding: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+.form__input {
+
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin: 5px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto -20px;
+}
+
+fieldset a {
+    background-color: #7614D9;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.purple {
+    position: relative;
+    margin: 10px 10px;
+    border: none;
+    color: #fff;
+    background: #7614D9;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
+#registrer_btn:hover {
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+
+@media (min-width: 600px) {
+    .registrer_form {
+        margin: 50px auto;
+    }
+    .button  {
+        flex-direction: row;   
+    } 
+}

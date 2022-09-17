@@ -1,5 +1,5 @@
 .welcome_home {
-    background: linear-gradient(90deg, #022859, #7614D9);
+    background: linear-gradient( #7614D9, #022859);
 }
 
 .welcome_home_logo {
@@ -68,6 +68,9 @@
 }
 
 @media (min-width: 850px){
+    .welcome_home {
+        background: linear-gradient( #022859, #7614D9);
+    }
     .welcome_home_content,
     .section_home_1 {
         flex-direction: row-reverse;
