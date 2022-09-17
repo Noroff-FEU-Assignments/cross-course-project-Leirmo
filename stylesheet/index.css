@@ -43,12 +43,14 @@
     align-items: center;
 }
 
+
 .cover_image {
     width: 180px;
     margin: 5px;
     box-shadow: 5px 5px 5px black;
 }
 
+  
 .cover_image:hover {
     box-shadow: 10px 10px 5px black;
 }
