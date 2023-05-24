@@ -40,17 +40,21 @@
   </head>
   <body>
     <header>
-      <label for="hamburger-menu"><i class="fas fa-bars fa-2xl"></i></label>
-      <input type="checkbox" id="hamburger-menu" />
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="mysite.html">MySite</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="login.html">LogOut</a></li>
-        </ul>
-      </nav>
-      <div class="box-menu">
+      <div class="nav-menu">
+        <label for="hamburger-menu" class="hamburger_icon"
+          ><i class="fas fa-bars fa-2xl"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/mysite.html">MySite</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/registrer.html">Login / Registrer </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search-box">
         <input type="checkbox" id="check" />
         <div class="search">
           <input type="text" placeholder="search" />
@@ -59,19 +63,16 @@
           ></label>
         </div>
       </div>
-      <a href="/cart.html" class="cart"
-        ><i class="fa-solid fa-cart-shopping"></i
-      ></a>
+      <div>
+        <a href="/cart.html" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
     </header>
     <main>
-      <section class="welcome_home">
-        <div class="welcome_home_content">
-          <img
-            src="/images/GameHub_Logo.png"
-            class="welcome_home_logo"
-            alt="gamehub logo"
-          />
-          <div>
+      <section class="sections">
+        <div class="sections_text">
+          <div class="text_content">
             <h1>Play with Gamehub</h1>
             <p>
               Welcome, here you can hold your self updated on the game news.
@@ -79,99 +80,94 @@
             <p>Earn money $$$ on your old games and buy new games!!</p>
           </div>
         </div>
-      </section>
-      <section class="section_home_1">
-        <div>
-          <h2>Lets check out whats New!!</h2>
-          <p>Check out the newest games on Gamehub</p>
-          <a href="../products/new.html" class="cta_button">See More</a>
-        </div>
-        <div>
-          <a href="../products/new.html"
-            ><img
-              src="/images/GameHub_covers4.jpg"
-              class="furius cover_image"
-              alt="game cover"
-          /></a>
-          <a href="../products/new.html"
-            ><img
-              src="/images/GameHub_covers10.jpg"
-              class="forge_legend cover_image"
-              alt="game cover"
-          /></a>
-          <a href="../products/new.html"
-            ><img
-              src="/images/GameHub_covers3.jpg"
-              class="black cover_image"
-              alt="game cover"
-          /></a>
+        <div class="sections_image">
+          <img src="/images/GameHub_Logo.png" class="logo" alt="gamehub logo" />
         </div>
       </section>
-      <section class="section_home_2">
-        <div class="section_home_2_content">
-          <div>
+      <section class="sections">
+        <div class="text">
+          <div class="text_content">
+            <h2>Lets check out whats New!!</h2>
+            <p>Check out the newest games on Gamehub</p>
+            <a href="/game_test/new.html" class="cta_button">See More</a>
+          </div>
+        </div>
+        <div class="games">
+          <div class="games_content">
+            <img src="/images/GameHub_covers4.jpg" class="cover" alt="" />
+
+            <img src="/images/GameHub_covers10.jpg" class="cover" alt="" />
+
+            <img src="/images/GameHub_covers3.jpg" class="cover" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="sections">
+        <div class="text">
+          <div class="text_content">
             <h2>Great games coming soon.</h2>
-            <p>
-              Pre order on coming games and get them before everyone else.
-              <br />Become a master in the game before anyone else.
-            </p>
-            <a href="../products/coming_soon.html" class="cta_button"
+            <p>Pre order the newest game coming games</p>
+            <a href="/game_test/commin_soon.html" class="cta_button"
               >See More</a
             >
           </div>
-          <div>
+        </div>
+        <div class="games">
+          <div class="games_content">
             <a href="../products/coming_soon.html"
               ><img
                 src="/images/GameHub_covers5.jpg"
-                class="furius cover_image"
+                class="furius cover"
                 alt="game cover"
             /></a>
+
             <a href="../products/coming_soon.html"
               ><img
                 src="/images/GameHub_covers6.jpg"
-                class="forge_legend cover_image"
+                class="forge_legend cover"
                 alt="game cover"
             /></a>
+
             <a href="../products/coming_soon.html"
               ><img
                 src="/images/GameHub_covers7.jpg"
-                class="black cover_image"
-                alt="game cover"
-            /></a>
-            <a href="../products/coming_soon.html"
-              ><img
-                src="/images/GameHub_covers9.jpg"
-                class="forge_legend cover_image"
+                class="black cover"
                 alt="game cover"
             /></a>
           </div>
         </div>
       </section>
-      <section class="section_home_1">
-        <div>
-          <h2>Check out whats for sale</h2>
-          <p>Go nostalgic with your old love. Now on sale.</p>
-          <a href="../products/sale.html" class="cta_button">See More</a>
+      <section class="sections">
+        <div class="text">
+          <div class="text_content">
+            <h2>Check out whats for sale</h2>
+            <p>Go nostalgic with your old love. Now on sale.</p>
+            <a href="/game_test/sale.html" class="cta_button">See More</a>
+          </div>
         </div>
-        <div>
-          <a href="../products/sale.html"
-            ><img
-              src="/images/GameHub_covers8.jpg"
-              class="forge_legend cover_image"
-              alt="game cover"
-          /></a>
-          <a href="../products/sale.html"
-            ><img
-              src="/images/GameHub_covers.jpg"
-              class="black cover_image"
-              alt="game cover"
-          /></a>
-          <a href="../products/sale.html"
-            ><img
-              src="/images/GameHub_covers2.jpg"
-              class="forge_legend cover_image"
-              alt="game cover"
-          /></a>
+        <div class="games">
+          <div class="games_content">
+            <a href="../products/coming_soon.html"
+              ><img
+                src="/images/GameHub_covers8.jpg"
+                class="furius cover"
+                alt="game cover"
+            /></a>
+
+            <a href="../products/coming_soon.html"
+              ><img
+                src="/images/GameHub_covers.jpg"
+                class="forge_legend cover"
+                alt="game cover"
+            /></a>
+
+            <a href="../products/coming_soon.html"
+              ><img
+                src="/images/GameHub_covers2.jpg"
+                class="black cover"
+                alt="game cover"
+            /></a>
+          </div>
         </div>
       </section>
     </main>
@@ -193,12 +189,36 @@
           </div>
         </div>
         <div class="contact_us_content">
-          <h3>Contact us</h3>
-          <p>Phone: <a href="tel">99999999</a></p>
-          <p>E-Post: <a href="email">something@example.com</a></p>
-          <p>Address: Northpole</p>
+          <form id="contactForm">
+            <fieldset>
+              <legend>Contact us</legend>
+              <label
+                >Your First name
+                <input name="firstName" id="firstName" />
+              </label>
+              <div class="error-form" id="firstNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Last name
+                <input name="lastName" id="lastName" />
+              </label>
+              <div class="error-form" id="lastNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Email
+                <input name="email" id="email" />
+              </label>
+              <div class="error-form" id="emailError">
+                Please enter a valid email
+              </div>
+              <button class="cta_button">Submit</button>
+            </fieldset>
+          </form>
         </div>
       </section>
     </footer>
+    <script src="/js/script.js"></script>
   </body>
 </html>

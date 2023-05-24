@@ -1,83 +1,61 @@
-.welcome_home {
-    background: linear-gradient( #7614D9, #022859);
+.sections {
+  background-color: #022859;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: 30px 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px black;
+  align-items: center;
+  text-align: center;
 }
 
-.welcome_home_logo {
-    max-width: 280px;
+.section_text {
+  justify-content: flex-start;
+  padding-bottom: 50px;
 }
 
-.welcome_home_content,
-.section_home_1 {
-    max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    margin: 0px auto;
-    padding: 20px 30px;
+.text_content {
+  padding-bottom: 50px;
 }
 
-.section_home_1 div {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
+.section_image {
 }
 
-.section_home_2 {
-    background-color: #022859;   
+.logo {
+  max-width: 200px;
+  background-color: #7614d9;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-.section_home_2_content {
-    max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    margin: 0px auto;
-    padding: 20px 20px;
+.cover {
+  max-width: 100px;
+  box-shadow: 5px 5px 5px black;
+  margin: 5px;
 }
 
-.section_home_2_content div {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
+@media (min-width: 690px) {
+  .sections {
+    margin: 50px;
+  }
+
+  .cover {
+    max-width: 150px;
+  }
 }
 
+@media (min-width: 1180px) {
+  .sections {
+    flex-direction: row;
+    text-align: left;
+  }
+  .logo {
+    max-width: 300px;
+  }
 
-.cover_image {
-    width: 180px;
-    margin: 5px;
-    box-shadow: 5px 5px 5px black;
-}
-
-  
-.cover_image:hover {
-    box-shadow: 10px 10px 5px black;
-}
-
-@media (min-width:600px) {
-    .section_home_1 div {
-        display: block;
-        margin: auto;
-    }
-    .section_home_2_content div {
-        display: block;
-        margin: auto;
-    }
-
-}
-
-@media (min-width: 850px){
-    .welcome_home {
-        background: linear-gradient( #022859, #7614D9);
-    }
-    .welcome_home_content,
-    .section_home_1 {
-        flex-direction: row-reverse;
-        max-width: 1200px;
-    }
-
-    .section_home_2_content {
-        flex-direction: row;
-    }
+  .cover {
+    max-width: 200px;
+  }
 }

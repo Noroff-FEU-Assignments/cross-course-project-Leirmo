@@ -1,25 +1,25 @@
 h1 {
   font-size: 50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
 h2 {
   font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
 h3 {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   text-decoration: underline;
 }
 
 p {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
@@ -34,70 +34,102 @@ a:hover {
 
 body {
   margin: 0;
-  background-color: #7614D9;
+  background-color: #7614d9;
 }
 
 /*Header*/
 
 header {
-  background: linear-gradient(-45deg, #022859, #7614D9);
+  position: relative;
+  background: #022859;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 50px 10px 50px;
+  justify-content: space-between;
   color: #fff;
 }
 
-.box-menu {
-  flex: 1;
-  max-width: 300px;
-  max-height: 100%;
+header a {
+  padding: 15px;
+  display: block;
 }
 
-.box-menu .search {
+header a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  position: absolute;
+  background-color: #0487d9;
+  top: 64px;
+  padding: 0px;
+  width: 100%;
+}
+
+header nav {
+  padding: 0px;
+}
+
+nav,
+#hamburger.menu {
+  display: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.active {
+  text-decoration: underline;
+  font-size: larger;
+  cursor: not-allowed;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.hamburger_icon {
+  display: block;
+  padding-left: 10px;
+}
+
+.search-box {
+  width: 20%;
   position: relative;
-  height: 50px;
-  max-width: 380px;
-  margin: auto;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-  margin: 0 50px;
 }
 
-#check:checked ~ .search {
-  max-width: 380px;
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
 }
 
 .search input {
-  position: absolute;
-  height: 100%;
   width: 100%;
-  border-radius: 25px;
-  background-color: #fff;
+  border: 3px solid #0487d9;
+  border-radius: 5px;
+  height: 25px;
   outline: none;
-  border: none;
-  padding-left: 20px;
-  font-size: 18px;
 }
 
-.search .search-icon {
+.search-icon {
   position: absolute;
-  right: -22px;
-  top: 0;
-  width: 50px;
-  background: #fff;
-  height: 104%;
-  text-align: center;
-  line-height: 50px;
-  color: #0487D9;
-  font-size: 20px;
-  border-radius: 25px;
+  right: 10px;
+  color: #0487d9;
+  padding-top: 7px;
+  cursor: pointer;
 }
-#check:checked ~ .search .search-icon {
-  background: #0487D9;
-  color: #fff;
-  border-radius: 25px 25px 25px 25px;
-}
+
 #check {
   display: none;
 }
@@ -107,69 +139,19 @@ header {
   position: relative;
 }
 
-
-
-/*Links*/
-nav {
-  margin-right: 0px;
-  display: none;
-  position: absolute;
-  top: 70px;
-  background-color: #0487D9;
-  z-index: 1000; 
-  left: 0px;
-}
-
-nav ul {
-  padding: 0px;
-}
-  
-nav a {
-  display: block;
-  padding: 10px 40px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-#hamburger-menu {
-  display: none;
-}
-  
-#hamburger-menu:checked ~ nav {
-  display: block;
-}
-
-.active {
-  text-decoration: underline;
-}
-
-.cta_button {
-  position: relative;
-  max-width: 70px;
-  padding: 10px 30px;
-  border-radius: 25px;
-  border: none;
-  background: #0487D9;
-  top: 30px;
-  color: #fff;
-}
-
-.cta_button:hover {
-  text-decoration: none;
-  border: black;
-  box-shadow: 5px 5px 10px black;
-}
-
-.login_button {
-  background-color: #7614D9;
-}
-
-@media (min-width: 600px) {
-  .cta_button {
-    max-width: 50px;
+@media (min-width: 550px) {
+  .hamburger_icon {
+    display: none;
   }
-  
+
+  nav {
+    display: block;
+    position: relative;
+    background-color: #022859;
+    top: 0;
+  }
+
+  nav li {
+    display: inline-block;
+  }
 }
