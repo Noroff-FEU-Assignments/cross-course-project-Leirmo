@@ -41,19 +41,21 @@
   </head>
   <body>
     <header>
-      <div>
-        <label for="hamburger-menu"><i class="fas fa-bars fa-2xl"></i></label>
+      <div class="nav-menu">
+        <label for="hamburger-menu" class="hamburger_icon"
+          ><i class="fas fa-bars fa-2xl"></i
+        ></label>
         <input type="checkbox" id="hamburger-menu" />
         <nav>
           <ul>
-            <a href="index.html">Home</a>
-            <a href="mysite.html">MySite</a>
-            <a href="about.html">About</a>
-            <a href="login.html">LogOut</a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/mysite.html">MySite</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/registrer.html">Login / Registrer </a></li>
           </ul>
         </nav>
       </div>
-      <div class="box-menu">
+      <div class="search-box">
         <input type="checkbox" id="check" />
         <div class="search">
           <input type="text" placeholder="search" />
@@ -63,51 +65,49 @@
         </div>
       </div>
       <div>
-        <a href="/cart.html" class="cart"
+        <a href="/cart.html/cart.html" class="cart"
           ><i class="fa-solid fa-cart-shopping"></i
         ></a>
       </div>
     </header>
     <main>
-      <section class="welcome_home">
-        <div class="welcome_home_content">
-          <img
-            src="/images/GameHub_Logo.png"
-            class="welcome_home_logo"
-            alt="gamehub logo"
-          />
-          <div>
-            <h1>Gamehub</h1>
-            <p>Your shopping cart</p>
-          </div>
+      <section class="sections">
+        <div>
+          <h1>Gamehub</h1>
+          <p>Your shopping cart</p>
+        </div>
+        <div>
+          <img src="/images/GameHub_Logo.png" class="logo" alt="gamehub logo" />
         </div>
       </section>
-      <section class="shopping_cart">
-        <a href="/new.html"
-          ><img
-            src="/images/GameHub_covers10.jpg"
-            class="forge_legend cover_image"
-            alt="game cover"
-        /></a>
+      <section class="sections">
         <div>
           <h2>Forge Legend</h2>
           <p>Dreams, magic and more is coming true</p>
           <p>$250</p>
           <a href="#" class="cta_button">Remove</a>
         </div>
-      </section>
-      <section class="shopping_cart">
-        <a href="/new.html"
-          ><img
-            src="/images/GameHub_covers4.jpg"
+        <div>
+          <img
+            src="/images/GameHub_covers10.jpg"
             class="forge_legend cover_image"
             alt="game cover"
-        /></a>
+          />
+        </div>
+      </section>
+      <section class="sections">
         <div>
           <h2>Furious</h2>
           <p>Furious is a game with monsters and fun.</p>
           <p>$250</p>
           <a href="#" class="cta_button">Remove</a>
+        </div>
+        <div>
+          <img
+            src="/images/GameHub_covers4.jpg"
+            class="forge_legend cover_image"
+            alt="game cover"
+          />
         </div>
       </section>
       <section class="buy">
@@ -135,12 +135,36 @@
           </div>
         </div>
         <div class="contact_us_content">
-          <h3>Contact us</h3>
-          <p>Phone: <a href="tel">99999999</a></p>
-          <p>E-Post: <a href="email">something@example.com</a></p>
-          <p>Address: Northpole</p>
+          <form id="contactForm">
+            <fieldset>
+              <legend>Contact us</legend>
+              <label
+                >Your First name
+                <input name="firstName" id="firstName" />
+              </label>
+              <div class="error-form" id="firstNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Last name
+                <input name="lastName" id="lastName" />
+              </label>
+              <div class="error-form" id="lastNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Email
+                <input name="email" id="email" />
+              </label>
+              <div class="error-form" id="emailError">
+                Please enter a valid email
+              </div>
+              <button class="cta_button">Submit</button>
+            </fieldset>
+          </form>
         </div>
       </section>
     </footer>
+    <script src="/js/script.js"></script>
   </body>
 </html>

@@ -32,109 +32,179 @@
 </head>
 <body>
     <header>
-        <div>
-            <label for="hamburger-menu"><i class="fas fa-bars fa-2xl"></i></label>
-            <input type="checkbox" id="hamburger-menu">
-            <nav>
-                <ul>
-                    <a href="index.html">Home</a>
-                    <a href="mysite.html" class="active">MySite</a>
-                    <a href="about.html">About</a>
-                    <a href="login.html">LogOut</a>
-                </ul>
-            </nav>
+      <div class="nav-menu">
+        <label for="hamburger-menu" class="hamburger_icon"
+          ><i class="fas fa-bars fa-2xl"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="/index.html" >Home</a></li>
+            <li><a href="/mysite.html" class="active">MySite</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/registrer.html">Login / Registrer </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search-box">
+        <input type="checkbox" id="check" />
+        <div class="search">
+          <input type="text" placeholder="search" />
+          <label for="check" class="search-icon"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
         </div>
-        <div class="box-menu">
-            <input type="checkbox" id="check">
-            <div class="search">
-                <input type="text" placeholder="search">
-                <label for="check" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></label>
-            </div>
-        </div>
-        <div>
-            <a href="cart.html" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
+      </div>
+      <div>
+        <a href="/cart.html/cart.html" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
     </header>
     <main>
-        <section class="welcome_home">
-            <div class="welcome_home_content">
-                    <img src="/images/GameHub_Logo.png" class="welcome_home_logo" alt="gamehub logo">
-                <div>
-                    <h1> MySite Gamehub</h1>
-                    <p>Play your awesome games</p> 
-                </div> 
-            </div>
-        </section>
-        <section class="profile">
-            <div class="profile_info">
-                <h2>Your Profile</h2>
-                <img src="/images/AdobeStock_488867172.jpeg" class="profile_picture" alt="Your profile picture">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <P>Level 40%</P>
-            </div>
-        </section>
-        <section class="your_games">
-            <h2>Your Games</h2>
-            <div>
-                <img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game cover">
-                <a href="#" class="cta_button">Play</a>
-                <a href="#" class="cta_button">Sell</a>
-            </div>
-            <div>
-                <img src="/images/GameHub_covers8.jpg" class="forge_legend cover_image" alt="game cover">
-                <a href="#" class="cta_button">Play</a>
-                <a href="#" class="cta_button">Sell</a>
-            </div>
-            <div>
-                <img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game cover">
-                <a href="#" class="cta_button">Play</a>
-                <a href="#" class="cta_button">Sell</a>
-            </div>
-        </section>
-        <section class="friends">
-            <div class="friends_content">
-                <h2>Friends</h2>
-                <div>
-                    <h2>Reidar</h2>
-                    <img src="/images/AdobeStock_488870081.jpeg" class="friends_content_picture" alt="Reidars profile picture">
-                    <p>Level 30%</p>
-                </div>
-                <div>
-                    <h2>Jøran</h2>
-                    <img src="/images/AdobeStock_487621790.jpeg" class="friends_content_picture" alt="Jøran profile picture">
-                    <p>Level 20%</p>
-                </div>
-                <div>
-                    <h2>Mina</h2>
-                    <img src="/images/AdobeStock_488868570.jpeg" class="friends_content_picture" alt="Mina profile picture">
-                    <p>Level 60%</p>
-                </div>
-        </section>
+      <section class="sections">
+        <div class="sections_text">
+          <div class="text_content">
+            <h1>MySite Gamehub</h1>
+            <p>Play your awesome games</p>
+          </div>
+        </div>
+        <div class="sections_image">
+          <img
+            src="/images/GameHub_Logo.png"
+            class="logo"
+            alt="gamehub logo"
+          />
+        </div>
+      </section>
+      <section class="sections">
+        <div class="profile_info">
+          <h2>Your Profile</h2>
+          <img
+            src="/images/AdobeStock_488867172.jpeg"
+            class="profile_picture"
+            alt="Your profile picture"
+          />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Level 40%</p>
+        </div>
+      </div>
+        <div class="profile_info">
+          <h2>Reidar</h2>
+          <img
+            src="/images/AdobeStock_488870081.jpeg"
+            class="friends_content_picture"
+            alt="Reidars profile picture"
+          />
+          <p>Level 30%</p>
+        </div>
+        <div class="profile_info">
+          <h2>Jøran</h2>
+          <img
+            src="/images/AdobeStock_487621790.jpeg"
+            class="friends_content_picture"
+            alt="Jøran profile picture"
+          />
+          <p>Level 20%</p>
+        </div>
+        <div class="profile_info">
+          <h2>Mina</h2>
+          <img
+            src="/images/AdobeStock_488868570.jpeg"
+            class="friends_content_picture"
+            alt="Mina profile picture"
+          />
+          <p>Level 60%</p>
+        </div>
+    </section>
+    <section class="sections">
+
+        <div class="section_content">
+          <img
+            src="/images/GameHub_covers3.jpg"
+            class="cover"
+            alt="game cover"
+          />
+          <div>
+          <a href="#" class="cta_button">Play</a>
+          <a href="#" class="cta_button">Sell</a>
+          </div>
+
+        </div>
+        <div class="section_content">
+          <img
+            src="/images/GameHub_covers8.jpg"
+            class="cover"
+            alt="game cover"
+          />
+          <div>
+          <a href="#" class="cta_button">Play</a>
+          <a href="#" class="cta_button">Sell</a>
+          </div>
+
+        </div>
+        <div class="section_content">
+          <img
+            src="/images/GameHub_covers.jpg"
+            class="cover"
+            alt="game cover"
+          />
+          <div>
+          <a href="#" class="cta_button">Play</a>
+          <a href="#" class="cta_button">Sell</a>
+          </div>
+
+        </div>
+      </section>
     </main>
     <footer>
-        <section class="footer_section">
-            <div class="follow_us_section">
-                <h3>Follow us</h3>
-                <div class="instagram">
-                    <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a> 
-                </div>
-                <div class="twitter">
-                    <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>   
-                </div>
-                <div class="facebook">
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
-                </div>
-                <div class="youtube">
-                    <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a> 
-                </div>
-            </div>
-            <div class="contact_us_content">
-                <h3>Contact us</h3>
-                <p>Phone: <a href="tel">99999999</a></p>
-                <p>E-Post: <a href="email">something@example.com</a></p>
-                <P>Address: Northpole</P>
-            </div>
-        </section>
+      <section class="footer_section">
+        <div class="follow_us_section">
+          <h3>Follow us</h3>
+          <div class="instagram">
+            <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+          </div>
+          <div class="twitter">
+            <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
+          </div>
+          <div class="facebook">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+          </div>
+          <div class="youtube">
+            <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+          </div>
+        </div>
+        <div class="contact_us_content">
+          <form id="contactForm">
+            <fieldset>
+              <legend>Contact us</legend>
+              <label
+                >Your First name
+                <input name="firstName" id="firstName" />
+              </label>
+              <div class="error-form" id="firstNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Last name
+                <input name="lastName" id="lastName" />
+              </label>
+              <div class="error-form" id="lastNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Email
+                <input name="email" id="email" />
+              </label>
+              <div class="error-form" id="emailError">
+                Please enter a valid email
+              </div>
+              <button class="cta_button">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </footer>
-</body>
+    <script src="/js/script.js"></script>
+  </body>
 </html>

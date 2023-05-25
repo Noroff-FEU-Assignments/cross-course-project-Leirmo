@@ -139,6 +139,17 @@ nav li {
   position: relative;
 }
 
+.cover_image {
+  max-width: 250px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.buy {
+  text-align: center;
+  margin: 80px auto;
+  padding: 60px;
+}
+
 @media (min-width: 550px) {
   .hamburger_icon {
     display: none;

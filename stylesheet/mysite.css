@@ -1,96 +1,32 @@
-.profile {
-    padding: 50px;
-    background-color: #022859;
-    display: flex;
+.profile_picture {
+  max-width: 150px;
+  width: 20%;
+  border-radius: 50%;
+}
 
+.profile_picture {
+  max-width: 150px;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.friends_content_picture {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
 }
 
 .profile_info {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    background-color: #0487D9;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px black;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #0487d9;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
 }
 
-.profile img {
-    max-width: 150px;
-    width: 20%;
-    border-radius: 50%;
-}
+.section_content {
+  padding-bottom: 60px;
 
-.your_games {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
-    align-items: center;
-    margin: auto;
-    grid-gap: 50px;
-    padding: 0 0 70px 0;
-}
-
-.your_games h2 {
-    grid-column: -1/1;
-    text-align: center;
-}
-
-.friends {
-    background-color: #022859;
-}
-  
-.friends_content {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
-    margin: auto;
-    grid-gap: 40px;
-    padding: 0 0 70px 0;
-}
-
-.friends_content h2 {
-    grid-column: -1/1;
-    text-align: center;  
-}
-
-.friends_content div {
-    background-color: #0487D9;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 25px;
-    padding: 35px;
-    margin: auto;
-}
-
-.friends_content_picture{
-    height: 110px;
-    width: 110px;
-    border-radius: 50%;
-}
-  
-.for_sale {
-    max-width: 1000px;
-    display: flex;
-    margin: 50px auto;
-}
-
-.for_sale > * {
-    flex: 1;
-}
-
-.for_sale div {
-    gap: 20px;
-}
-
-@media (min-width: 600px) {
-    .your_games {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    max-width: 500px;
-    }
-
-    .friends_content {
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        max-width: 500px;
-    }
+  text-align: center;
 }
