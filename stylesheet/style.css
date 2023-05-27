@@ -160,7 +160,7 @@ nav li {
 
 .cta_button {
   position: relative;
-  max-width: 70px;
+  max-width: 75px;
   padding: 10px 30px;
   border-radius: 25px;
   border: none;
@@ -175,6 +175,12 @@ nav li {
   text-decoration: none;
   border: black;
   box-shadow: 5px 5px 10px black;
+}
+
+@media (min-width: 1180px) {
+  .cta_button {
+    margin: 20px;
+  }
 }
 
 @media (min-width: 550px) {

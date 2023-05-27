@@ -7,19 +7,19 @@
   border-radius: 10px;
   justify-content: space-between;
   box-shadow: 5px 5px 5px black;
-  align-items: center;
-  text-align: center;
+  text-align: left;
   gap: 20px;
   max-width: 250px;
 }
 
 .section_text {
-  justify-content: flex-start;
   padding-bottom: 50px;
 }
 
 .text_content {
   padding-bottom: 50px;
+  align-items: left;
+  text-align: left;
 }
 
 .section_image {
@@ -44,6 +44,7 @@
     padding: 100px;
     width: 550px;
     max-width: none;
+    align-items: center;
   }
 
   .cover {
