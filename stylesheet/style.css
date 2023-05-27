@@ -36,6 +36,13 @@ body {
   margin: 0;
   background-color: #7614d9;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 
 /*Header*/
 
@@ -124,7 +131,7 @@ nav li {
 
 .search-icon {
   position: absolute;
-  right: 10px;
+  right: -20px;
   color: #0487d9;
   padding-top: 7px;
   cursor: pointer;
@@ -148,6 +155,25 @@ nav li {
   text-align: center;
   margin: 80px auto;
   padding: 60px;
+}
+
+.cta_button {
+  position: relative;
+  max-width: 70px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  background: #0487d9;
+  top: 20px;
+  color: #fff;
+  display: block;
+  margin: 20px auto;
+}
+
+.cta_button:hover {
+  text-decoration: none;
+  border: black;
+  box-shadow: 5px 5px 10px black;
 }
 
 @media (min-width: 550px) {

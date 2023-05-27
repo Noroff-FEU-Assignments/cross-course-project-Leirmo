@@ -32,37 +32,39 @@
 </head>
 <body>
     <header>
+        <div class="nav-menu">
+          <label for="hamburger-menu" class="hamburger_icon"
+            ><i class="fas fa-bars fa-2xl"></i
+          ></label>
+          <input type="checkbox" id="hamburger-menu" />
+          <nav>
+            <ul>
+              <li><a href="/index.html" class="active">Home</a></li>
+              <li><a href="/mysite.html">MySite</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/registrer.html">Login / Registrer </a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="search-box">
+          <input type="checkbox" id="check" />
+          <div class="search">
+            <input type="text" placeholder="search" />
+            <label for="check" class="search-icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></label>
+          </div>
+        </div>
         <div>
-            <label for="hamburger-menu"><i class="fas fa-bars fa-2xl"></i></label>
-            <input type="checkbox" id="hamburger-menu">
-            <nav>
-                <ul>
-                    <a href="index.html">Home</a>
-                    <a href="mysite.html">MySite</a>
-                    <a href="about.html">About</a>
-                </ul>
-            </nav>
+          <a href="/cart.html" class="cart"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
         </div>
-        <div class="box-menu">
-            <input type="checkbox" id="check">
-            <div class="search">
-                <input type="text" placeholder="search">
-                <label for="check" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></label>
-            </div>
-        </div>
-        <div>
-            <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
-    </header>
+      </header>
     <main>
         <section class="welcome_home">
             <div class="welcome_home_content">
-                    <img src="/images/GameHub_Logo.png" class="welcome_home_logo" alt="gamehub logo">
-                <div>
-                    <h1>Play with Gamehub</h1>
-                    <p>Welcome, here you can hold your self updated on he game news.</p>
-                    <p>Earn money $$$ on your old games and buy new games!!</p> 
-                </div> 
+                    <img src="/images/GameHub_Logo.png" class="logo" alt="gamehub logo">
             </div>
         </section>
             <section>
@@ -74,7 +76,7 @@
                         <label for="password">Your Password</label>
                         <input type="password" name="password" id="password" class="form__input" required>
                         <input type="radio" id="yonger-20" name="age" value="yonger-20">
-                        <label for="yonger-20">Remeber me</label>
+                        <label for="yonger-20">Remember me</label>
                     <div class="button">  
                     <a href="registrer.html" class="cta_button purple">Registrer</a>  
                     <a href="index.html" class="cta_button purple">LogIn</a>
@@ -85,28 +87,52 @@
     </main>
     <footer>
         <section class="footer_section">
-            <div class="follow_us_section">
-                <h3>Follow us</h3>
-                <div class="instagram">
-                    <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a> 
-                </div>
-                <div class="twitter">
-                    <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>   
-                </div>
-                <div class="facebook">
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
-                </div>
-                <div class="youtube">
-                    <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a> 
-                </div>
+          <div class="follow_us_section">
+            <h3>Follow us</h3>
+            <div class="instagram">
+              <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
             </div>
-            <div class="contact_us_content">
-                <h3>Contact us</h3>
-                <p>Phone: <a href="tel">99999999</a></p>
-                <p>E-Post: <a href="email">something@example.com</a></p>
-                <P>Address: Northpole</P>
+            <div class="twitter">
+              <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
             </div>
+            <div class="facebook">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+            </div>
+            <div class="youtube">
+              <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+            </div>
+          </div>
+          <div class="contact_us_content">
+            <form id="contactForm">
+              <fieldset>
+                <legend>Contact us</legend>
+                <label
+                  >Your First name
+                  <input name="firstName" id="firstName" />
+                </label>
+                <div class="error-form" id="firstNameError">
+                  Please enter your name
+                </div>
+                <label
+                  >Your Last name
+                  <input name="lastName" id="lastName" />
+                </label>
+                <div class="error-form" id="lastNameError">
+                  Please enter your name
+                </div>
+                <label
+                  >Your Email
+                  <input name="email" id="email" />
+                </label>
+                <div class="error-form" id="emailError">
+                  Please enter a valid email
+                </div>
+                <button class="cta_button">Submit</button>
+              </fieldset>
+            </form>
+          </div>
         </section>
-    </footer>
+      </footer>
+      <script src="/js/script.js"></script>
 </body>
 </html>

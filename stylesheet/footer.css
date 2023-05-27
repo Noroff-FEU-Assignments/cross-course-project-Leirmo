@@ -6,9 +6,11 @@ footer {
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  padding: 50px 80px 40px 80px;
+  padding: 50px 10px;
   margin: auto;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer_section > * {
@@ -38,8 +40,13 @@ footer {
 
 .contact_us_content {
   background-color: #7614d9;
-  padding: 20px;
+  padding: 5px;
+  margin: auto;
   border-radius: 20px;
+  max-width: 350px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 
 fieldset {
@@ -72,6 +79,14 @@ label {
 .contact_us_content .cta_button {
   max-width: 110px;
 }
+
+.error-form {
+  display: none;
+  color: red;
+  margin-bottom: 5px;
+  padding-left: 60px;
+}
+
 @media (min-width: 800px) {
   footer {
     min-width: 1000px;

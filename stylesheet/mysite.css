@@ -18,7 +18,7 @@
 
 .profile_info {
   max-width: 500px;
-  margin: 10px auto;
+  margin: 10px;
   padding: 20px;
   background-color: #0487d9;
   border-radius: 25px;
@@ -27,6 +27,5 @@
 
 .section_content {
   padding-bottom: 60px;
-
   text-align: center;
 }
