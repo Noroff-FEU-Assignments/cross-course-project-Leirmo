@@ -4,6 +4,7 @@ const firstNameError = document.querySelector("#firstNameError");
 const lastNameInput = document.querySelector("#lastName");
 const lastNameError = document.querySelector("#lastNameError");
 const emailInput = document.querySelector("#email");
+const emailError = document.querySelector("#emailError");
 
 function validateForm(event) {
   event.preventDefault();
@@ -20,7 +21,7 @@ function validateForm(event) {
     lastNameError.style.display = "block";
   }
 
-  if (emailInput(email.value) === true) {
+  if (validateEmail(email.value) === true) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
