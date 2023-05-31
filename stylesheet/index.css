@@ -9,7 +9,7 @@
   text-align: center;
   margin: 10px auto;
   border-radius: 10px;
-  padding: 20px;
+  padding: 0;
   box-shadow: 5px 5px 5px black;
   gap: 20px;
 }
@@ -42,11 +42,12 @@
 
 @media (min-width: 690px) {
   .sections {
-    margin: 50px;
+    margin: 20px;
     padding: 100px;
     width: 550px;
     max-width: none;
     align-items: center;
+    padding: 20px;
   }
 
   .text_content {
