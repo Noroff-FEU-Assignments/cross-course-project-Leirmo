@@ -1,15 +1,17 @@
 .sections {
-  background-color: #022859;
   display: flex;
-  flex-direction: column;
-  padding: 20px;
-  margin: 30px 10px;
-  border-radius: 10px;
+  background-color: #022859;
   justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px;
   box-shadow: 5px 5px 5px black;
-  text-align: left;
   gap: 20px;
-  max-width: 250px;
 }
 
 .section_text {
@@ -18,8 +20,8 @@
 
 .text_content {
   padding-bottom: 50px;
-  align-items: left;
-  text-align: left;
+
+  text-align: center;
 }
 
 .section_image {
@@ -45,6 +47,12 @@
     width: 550px;
     max-width: none;
     align-items: center;
+  }
+
+  .text_content {
+    padding-bottom: 50px;
+
+    text-align: left;
   }
 
   .cover {
