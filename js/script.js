@@ -15,19 +15,19 @@ function validateForm(event) {
     firstNameError.style.display = "block";
   }
 
-  if (lastNameInput.value.trim().length > 0) {
+  if (checkLength(lastNameInput.value.trim(), 0) === true) {
     lastNameError.style.display = "none";
   } else {
     lastNameError.style.display = "block";
   }
 
-  if (validateEmail(email.value) === true) {
+  if (validateEmail(emailInput.value) === true) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
   }
 
-  console.log("I cant belive it works");
+  console.log("I can't believe it works");
 }
 
 form.addEventListener("submit", validateForm);

@@ -81,11 +81,13 @@
         </div>
       </section>
       <section class="sections">
-        <div>
+        <div class="cart_item">
           <h2>Forge Legend</h2>
           <p>Dreams, magic and more is coming true</p>
-          <p>$250</p>
-          <a class="cta_button">Remove</a>
+          <p class="price">$250</p>
+          <button type="button" class="cta_button cta_add_cart cta_remove">
+            Remove
+          </button>
         </div>
         <div>
           <img
@@ -96,11 +98,13 @@
         </div>
       </section>
       <section class="sections">
-        <div>
+        <div class="cart_item">
           <h2>Furious</h2>
           <p>Furious is a game with monsters and fun.</p>
-          <p>$250</p>
-          <a href="#" class="cta_button">Remove</a>
+          <p class="price">$250</p>
+          <button type="button" class="cta_button cta_add_cart cta_remove">
+            Remove
+          </button>
         </div>
         <div>
           <img
@@ -113,8 +117,36 @@
       <section class="buy">
         <h2>Almost there</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>500$</p>
-        <a href="#" class="cta_button">Buy</a>
+        <p class="total-price">Total $0.00</p>
+      </section>
+      <section class="sections">
+        <form id="shipping">
+          <fieldset>
+            <legend>Shipping</legend>
+            <label
+              >First name
+              <input name="firstName" id="firstName" />
+            </label>
+            <div class="error-form" id="firstNameError">
+              Please enter your name
+            </div>
+            <label
+              >Last name
+              <input name="lastName" id="lastName" />
+            </label>
+            <div class="error-form" id="lastNameError">
+              Please enter your name
+            </div>
+            <label
+              >Your Email
+              <input name="email" id="email" />
+            </label>
+            <div class="error-form" id="emailError">
+              Please enter a valid email
+            </div>
+            <button class="cta_button">Submit</button>
+          </fieldset>
+        </form>
       </section>
     </main>
     <footer>
@@ -166,5 +198,6 @@
       </section>
     </footer>
     <script src="/js/script.js"></script>
+    <script src="/js/cart.js" async></script>
   </body>
 </html>
