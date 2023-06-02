@@ -14,6 +14,12 @@
   padding: 50px;
 }
 
+.forms {
+  display: flex;
+  justify-content: center;
+  padding: 55px 0;
+}
+
 @media (min-width: 600px) {
   .shopping_cart {
     width: 1000px;

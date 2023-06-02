@@ -41,6 +41,11 @@
   margin: 5px;
 }
 
+.sections fieldset {
+  text-align: center;
+  justify-content: center;
+}
+
 @media (min-width: 690px) {
   .sections {
     margin: 20px;
@@ -65,7 +70,7 @@
 @media (min-width: 1180px) {
   .sections {
     width: 1000px;
-    height: 300px;
+    max-height: 700px;
     flex-direction: row;
     text-align: left;
     max-width: none;

@@ -119,32 +119,26 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         <p class="total-price">Total $0.00</p>
       </section>
-      <section class="sections">
+      <section class="sections forms">
         <form id="shipping">
           <fieldset>
             <legend>Shipping</legend>
             <label
               >First name
-              <input name="firstName" id="firstName" />
+              <input name="firstName" id="shippingFirstName" />
             </label>
-            <div class="error-form" id="firstNameError">
-              Please enter your name
-            </div>
+
             <label
               >Last name
-              <input name="lastName" id="lastName" />
+              <input name="lastName" id="shippingLastName" />
             </label>
-            <div class="error-form" id="lastNameError">
-              Please enter your name
-            </div>
+
             <label
-              >Your Email
-              <input name="email" id="email" />
+              >Adress
+              <input name="adress" id="adress" />
             </label>
-            <div class="error-form" id="emailError">
-              Please enter a valid email
-            </div>
-            <button class="cta_button">Submit</button>
+
+            <button class="cta_button cta_add_cart">Submit</button>
           </fieldset>
         </form>
       </section>
@@ -197,7 +191,7 @@
         </div>
       </section>
     </footer>
-    <script src="/js/script.js"></script>
-    <script src="/js/cart.js" async></script>
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>

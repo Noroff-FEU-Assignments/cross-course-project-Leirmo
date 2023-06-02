@@ -51,12 +51,15 @@ footer {
 }
 
 fieldset {
+  color: #fff;
   border: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin: auto -20px;
+  align-items: center;
+  margin: auto;
+  max-width: 200px;
 }
 
 legend {
@@ -64,11 +67,17 @@ legend {
   font-size: 30px;
   text-align: center;
   padding-bottom: 30px;
+  align-items: center;
 }
 
 form,
 label {
   padding: 10px;
+}
+
+input {
+  padding: 5px 60px;
+  border-radius: 5px;
 }
 
 .contact_us_content input {

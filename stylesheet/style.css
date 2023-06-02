@@ -178,6 +178,9 @@ nav li {
   box-shadow: 5px 5px 10px black;
 }
 
+.cta_add_cart {
+  max-width: 100%;
+}
 @media (min-width: 1180px) {
   .cta_button {
     margin: 20px;

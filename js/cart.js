@@ -34,7 +34,7 @@ function addToCart(title, price, imageSrc) {
   var cartRowContents = `
     <div class="cart_item">
       <h2>${title}</h2>
-      <p>${title} is a game with monsters and fun.</p>
+
       <p class="price">${price}</p>
       <button type="button" class="cta_button cta_add_cart cta_remove">
         Remove
