@@ -15,7 +15,7 @@ for (var i = 0; i < addToCartButtons.length; i++) {
   button.addEventListener("click", addToCartClicked);
 }
 
-function addToCartClicked(event) {
+/*function addToCartClicked(event) {
   var button = event.target;
   var shopItem = button.parentElement;
   var title = shopItem.getElementsByClassName("game_title")[0].innerText;
@@ -52,7 +52,7 @@ function addToCart(title, price, imageSrc) {
   removeCartItemButtons[0].addEventListener("click", removeCartItem);
 
   updateCartTotal();
-}
+}*/
 
 function removeCartItem(event) {
   var buttonClicked = event.target;
