@@ -1,4 +1,4 @@
-# GameHub
+# GameHub 
 
 ![Skjermbilde 2023-12-08 151535](https://github.com/Noroff-FEU-Assignments/cross-course-project-Leirmo/assets/103224025/767b3a33-f70d-425b-9331-7f9050af345c)
 
@@ -25,12 +25,12 @@ You can list a the tech stack that you've used over here
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+Just clone the repo and install it.
 
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+https://github.com/Noroff-FEU-Assignments/cross-course-project-Leirmo.git
 ```
 
 2. Install the dependencies:
@@ -57,9 +57,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
+[Discord](Daniel Leirmo - Jan22 PT#4841)
 
 ## License
 
@@ -67,4 +65,4 @@ You can link to your license file here if you're using one, or mention what lice
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+Thanks to the teachers of Noroff and my fellow students
