@@ -35,12 +35,6 @@ https://github.com/Noroff-FEU-Assignments/cross-course-project-Leirmo.git
 npm install
 ```
 
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
 ```bash
 npm run start
 ```
@@ -51,10 +45,6 @@ Reach out
 ## Contact
 
 [Discord](Daniel Leirmo - Jan22 PT#4841)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 ## Acknowledgments
 
