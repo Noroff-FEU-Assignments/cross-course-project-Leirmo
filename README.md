@@ -1,25 +1,21 @@
-# GameHub 
+# Cross Course project - GameHub 
 
 ![Skjermbilde 2023-12-08 151535](https://github.com/Noroff-FEU-Assignments/cross-course-project-Leirmo/assets/103224025/767b3a33-f70d-425b-9331-7f9050af345c)
 
-
+This is my Cross Course project at Noroff
 
 
 ## Description
 
 This project was my first course assignment as a student at Noroff. the task was to create a website that had young gamers as its target audience
 
-This project is build with:
+## This project is build with:
 
 - HTML
 - CSS
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
 
 ## Getting Started
 
@@ -50,8 +46,7 @@ npm run start
 ```
 
 ## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Reach out
 
 ## Contact
 
