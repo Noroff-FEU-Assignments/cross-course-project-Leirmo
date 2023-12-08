@@ -7,13 +7,12 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project was my first course assignment as a student at Noroff. the task was to create a website that had young gamers as its target audience
 
-You can add some bullet points if you'd like to:
+This project is build with:
 
-- List item 1
-- List item 2
-- List item 3
+- HTML
+- CSS
 
 ## Built With
 
