@@ -14,7 +14,7 @@ This project was my first course assignment as a student at Noroff. the task was
 - HTML
 - CSS
 
-## Built With
+
 
 
 ## Getting Started
