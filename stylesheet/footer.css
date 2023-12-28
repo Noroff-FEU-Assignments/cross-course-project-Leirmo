@@ -2,6 +2,11 @@ footer {
   background-color: #0487d9;
 }
 
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .footer_section {
   max-width: 500px;
   display: flex;

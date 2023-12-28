@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Gamehub news, buy the newes games here."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamehub | Sale</title>
+    <link rel="stylesheet" href="../stylesheet/style.css">    
+    <link rel="stylesheet" href="../stylesheet/product.css">
+    <link rel="stylesheet" href="../stylesheet/footer.css" />
+    <link rel="stylesheet" href="../stylesheet/index.css">
+        <script
+      src="https://kit.fontawesome.com/a8da778513.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/b318972c4d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../stylesheet/style.css" />
-    <link rel="stylesheet" href="../stylesheet/index.css" />
-    <link rel="stylesheet" href="../stylesheet/items.css" />
-    <link rel="stylesheet" href="../stylesheet/footer.css" />
-    <title>Gamehub | New</title>
-  </head>
-  <body>
+</head>
+<body>
     <header>
       <div class="nav-menu">
         <label for="hamburger-menu" class="hamburger_icon"
@@ -33,12 +26,12 @@
         <input type="checkbox" id="hamburger-menu" />
         <nav>
           <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../mysite.html">MySite</a></li>
-            <li><a href="../about.html">About</a></li>
             <li>
-              <a href="../registrer.html">Login / Registrer </a>
+              <a href="/index.html">Home</a>
             </li>
+            <li><a href="/mysite.html">MySite</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/registrer.html">Login / Registrer </a></li>
           </ul>
         </nav>
       </div>
@@ -52,20 +45,18 @@
         </div>
       </div>
       <div>
-        <a href="../cart.html" class="cart"
+        <a href="/cart.html" class="cart"
           ><i class="fa-solid fa-cart-shopping"></i
         ></a>
       </div>
     </header>
     <main>
-      <section class="sections">
-        <div class="sections_text">
-          <div class="text_content">
-            <h1>Sale Gamehub</h1>
-            <p>Good games at good price</p>
-          </div>
+    <section class="box">
+        <div>
+          <h1>Sale Gamehub</h1>
+          <p>Good games at good price</p>
         </div>
-        <div class="sections_image">
+        <div>
           <img
             src="../images/GameHub_Logo.png"
             class="logo"
@@ -73,11 +64,12 @@
           />
         </div>
       </section>
-      <section class="game_section">
-        <div class="game_items"></div>
-      </section>
+            <section>
+      <div class="game_section"></div>
+    </section>
+  </body>
     </main>
-    <footer>
+        <footer>
       <section class="footer_section">
         <div class="follow_us_section">
           <h3>Follow us</h3>
@@ -133,8 +125,7 @@
         </div>
       </section>
     </footer>
-    <script src="/js/script.js"></script>
-    <script src="/js/cart.js"></script>
-    <script src="/js/sale.js"></script>
-  </body>
+    <script src="../js/sale.js"></script>
+    <script src="../js/script.js"></script>
+</body>
 </html>

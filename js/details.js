@@ -30,10 +30,26 @@ fetchGame();
 
 function createHtml(details) {
   detailContainer.innerHTML = `<h1 class="game_title">${details.name}</h1>
-                                <div class="game_title">${details.description}</div>
-                                <img class="cover" src="${details.images[0].src}">
+                                <div class="game_description">${
+                                  details.description
+                                }</div>
+                                <img class="cover" src="${
+                                  details.images[0].src
+                                }">
+                                <p class="item_price">${getFormattedPrice(
+                                  details.prices
+                                )}</p>
                                 <button type="button" class="cta_button cta_add_cart">
-            Pre-order
+            Buy
           </button>
 `;
 }
+
+function getFormattedPrice(prices) {
+  if (prices && prices.price) {
+    return `Price: ${prices.price}`;
+  }
+  return "Price not available";
+}
+
+fetchGames();

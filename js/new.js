@@ -23,9 +23,11 @@ async function fetchGames() {
       gameElement.innerHTML = `
         <h2 class="game_title">${game.name}</h2>
         <div>${game.short_description}</div>
-
-                          <a type="button" href="details.html?id=${game.id}" class="cta_button cta_add_cart">
-            Pre-order
+        <p class="item_price">${getFormattedPrice(game.prices)}</p>
+                          <a type="button" href="details.html?id=${
+                            game.id
+                          }" class="cta_button cta_add_cart">
+            View more
           </a>
         <img class="cover" src="${game.images[0].src}">
       `;
