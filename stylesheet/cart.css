@@ -1,12 +1,19 @@
-.shopping_cart {
+.buy_forms {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   gap: 25px;
-  padding: 50px 50px;
-  margin: 20px;
+  justify-content: center;
   background-color: #022859;
   box-shadow: 5px 5px 10px black;
+}
+
+#shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .buy {
@@ -17,12 +24,12 @@
 .forms {
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 55px 0;
 }
 
 @media (min-width: 600px) {
   .shopping_cart {
-    width: 1000px;
     flex-direction: row;
     padding: 50px auto;
     gap: 50px;
