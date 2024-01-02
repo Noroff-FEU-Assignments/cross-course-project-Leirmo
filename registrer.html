@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Registrer to Gamehub and become a part of a great gaming comunitie"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="stylesheet" href="/stylesheet/index.css" />
+    <link rel="stylesheet" href="/stylesheet/registrer.css" />
+    <link rel="stylesheet" href="/stylesheet/footer.css" />
+    <title>Gamehub | Registrer</title>
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3455729, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-menu">
+        <label for="hamburger-menu" class="hamburger_icon"
+          ><i class="fas fa-bars fa-2xl"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/mysite.html">MySite</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li>
+              <a href="/login.html" class="active">Login / Registrer </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search-box">
+        <input type="checkbox" id="check" />
+        <div class="search">
+          <input type="text" placeholder="search" />
+          <label for="check" class="search-icon"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </div>
+      </div>
+      <div>
+        <a href="/cart.html" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <form action="form-sucsess.php" method="POST" class="registrer_form">
+          <fieldset>
+            <legend>Registrer</legend>
+            <label for="name">Your name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form__input"
+              required
+            />
+            <label for="phone">Your Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              class="form__input"
+              required
+            />
+            <label for="email">Your email address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form__input"
+              required
+            />
+            <label for="password">Your Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form__input"
+              required
+            />
+            <label for="password">Confirm your Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form__input"
+              required
+            />
+            <p>Age</p>
+            <label for="yonger-20"
+              ><input
+                type="radio"
+                id="yonger-20"
+                name="age"
+                value="yonger-20"
+              />Yonger-20</label
+            >
+
+            <label for="20-30"
+              ><input
+                type="radio"
+                id="20-30"
+                name="age"
+                value="20-30"
+              />20-30</label
+            >
+
+            <label for="30-above"
+              ><input
+                type="radio"
+                id="30-above"
+                name="age"
+                value="30-above"
+              />30-Above</label
+            >
+          </fieldset>
+          <div class="button">
+            <a href="index.html" class="cta_button purple">Registrer</a>
+            <a href="login.html" class="cta_button purple">LogIn</a>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section class="footer_section">
+        <div class="follow_us_section">
+          <h3>Follow us</h3>
+          <div class="instagram">
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i>Instagram</a
+            >
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-square-twitter"></i>Twitter</a
+            >
+          </div>
+          <div class="facebook">
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-square-facebook"></i>Facebook</a
+            >
+          </div>
+          <div class="youtube">
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i>Youtube</a
+            >
+          </div>
+        </div>
+        <div class="contact_us_content">
+          <form id="contactForm">
+            <fieldset>
+              <legend>Contact us</legend>
+              <label
+                >Your First name
+                <input name="firstName" id="firstName" />
+              </label>
+              <div class="error-form" id="firstNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Last name
+                <input name="lastName" id="lastName" />
+              </label>
+              <div class="error-form" id="lastNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Email
+                <input name="email" id="email" />
+              </label>
+              <div class="error-form" id="emailError">
+                Please enter a valid email
+              </div>
+              <button class="cta_button">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

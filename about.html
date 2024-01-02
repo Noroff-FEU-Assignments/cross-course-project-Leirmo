@@ -1,0 +1,161 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="About Gamehub and some Lorem ipsum about the page and membership.">
+<meta name="description" content="Gamehubs shopping cart. View your next game before you buy them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="stylesheet/style.css">
+<link rel="stylesheet" href="/stylesheet/index.css">
+<link rel="stylesheet" href="/stylesheet/about.css">
+<link rel="stylesheet" href="/stylesheet/cart.css">
+<link rel="stylesheet" href="/stylesheet/footer.css">
+<title>Gamehub | About</title>
+<script>
+    (function (h, o, t, j, a, r) {
+      h.hj =
+        h.hj ||
+        function () {
+          (h.hj.q = h.hj.q || []).push(arguments);
+        };
+      h._hjSettings = { hjid: 3455729, hjsv: 6 };
+      a = o.getElementsByTagName("head")[0];
+      r = o.createElement("script");
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+  </script>
+</head>
+<body>
+    <header>
+      <div class="nav-menu">
+        <label for="hamburger-menu" class="hamburger_icon"
+          ><i class="fas fa-bars fa-2xl"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/mysite.html">MySite</a></li>
+            <li><a href="/about.html" class="active">About</a></li>
+            <li><a href="/registrer.html">Login / Registrer </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search-box">
+        <input type="checkbox" id="check" />
+        <div class="search">
+          <input type="text" placeholder="search" />
+          <label for="check" class="search-icon"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </div>
+      </div>
+      <div>
+        <a href="/cart.html" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </header>
+    <main>
+      <div class="logo_about">
+        <img
+          src="/images/GameHub_Logo.png"
+          class="logo"
+          alt="gamehub logo"
+        />
+      </div>
+      <section class="sections_about">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+          voluptas, beatae odio consectetur voluptatem aut enim, nisi assumenda
+          quas commodi veniam cupiditate sit laudantium nemo nihil totam vero
+          consequuntur voluptates.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit
+          alias iste, molestiae quos cum dolore ullam, dolor veniam rerum
+          voluptatibus a. Perspiciatis, earum! Mollitia quaerat obcaecati cum et
+          minus.
+        </p>
+      </section>
+      <section class="sections_about">
+        <h2>Membership</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          praesentium ut omnis minima vel, amet pariatur laborum vero! Magnam
+          molestiae nulla dolore odio ipsam voluptatem maiores adipisci,
+          excepturi aliquid impedit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+          voluptatem eos quod quam libero esse dolor quaerat, ut consequatur
+          magni ullam laudantium reiciendis iure nobis voluptatibus quo autem
+          vitae blanditiis.
+        </p>
+        <a href="/registrer.html" class="cta_button">Registrer</a>
+      </section>
+    </main>
+    <footer>
+      <section class="footer_section">
+        <div class="follow_us_section">
+          <h3>Follow us</h3>
+          <div class="instagram">
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i>Instagram</a
+            >
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-square-twitter"></i>Twitter</a
+            >
+          </div>
+          <div class="facebook">
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-square-facebook"></i>Facebook</a
+            >
+          </div>
+          <div class="youtube">
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i>Youtube</a
+            >
+          </div>
+        </div>
+        <div class="contact_us_content">
+          <form id="contactForm">
+            <fieldset>
+              <legend>Contact us</legend>
+              <label
+                >Your First name
+                <input name="firstName" id="firstName" />
+              </label>
+              <div class="error-form" id="firstNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Last name
+                <input name="lastName" id="lastName" />
+              </label>
+              <div class="error-form" id="lastNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Email
+                <input name="email" id="email" />
+              </label>
+              <div class="error-form" id="emailError">
+                Please enter a valid email
+              </div>
+              <button class="cta_button">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

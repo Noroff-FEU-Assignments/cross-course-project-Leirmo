@@ -1,0 +1,12 @@
+.logo_about {
+  display: flex;
+  justify-content: center;
+}
+
+.sections_about {
+  background-color: #022859;
+  padding: 50px;
+  margin: 20px 10px;
+  border-radius: 25px;
+  text-align: left;
+}

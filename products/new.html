@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamehub | New</title>
+    <link rel="stylesheet" href="../stylesheet/style.css" />
+    <link rel="stylesheet" href="../stylesheet/product.css" />
+    <link rel="stylesheet" href="../stylesheet/footer.css" />
+    <link rel="stylesheet" href="../stylesheet/index.css" />
+    <script
+      src="https://kit.fontawesome.com/a8da778513.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav-menu">
+        <label for="hamburger-menu" class="hamburger_icon"
+          ><i class="fas fa-bars fa-2xl"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li><a href="/mysite.html">MySite</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/registrer.html">Login / Registrer </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search-box">
+        <input type="checkbox" id="check" />
+        <div class="search">
+          <input type="text" placeholder="search" />
+          <label for="check" class="search-icon"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </div>
+      </div>
+      <div>
+        <a href="/cart.html" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </header>
+    <main>
+      <section class="box">
+        <div>
+          <h1>Coming soon on Gamehub</h1>
+          <p>Check out whats the hotest games coming up</p>
+        </div>
+        <div>
+          <img src="/images/GameHub_Logo.png" class="logo" alt="gamehub logo" />
+        </div>
+      </section>
+      <section class="sections">
+        <div class="game_section"></div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer_section">
+        <div class="follow_us_section">
+          <h3>Follow us</h3>
+          <div class="instagram">
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i>Instagram</a
+            >
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-square-twitter"></i>Twitter</a
+            >
+          </div>
+          <div class="facebook">
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-square-facebook"></i>Facebook</a
+            >
+          </div>
+          <div class="youtube">
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i>Youtube</a
+            >
+          </div>
+        </div>
+        <div class="contact_us_content">
+          <form id="contactForm">
+            <fieldset>
+              <legend>Contact us</legend>
+              <label
+                >Your First name
+                <input name="firstName" id="firstName" />
+              </label>
+              <div class="error-form" id="firstNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Last name
+                <input name="lastName" id="lastName" />
+              </label>
+              <div class="error-form" id="lastNameError">
+                Please enter your name
+              </div>
+              <label
+                >Your Email
+                <input name="email" id="email" />
+              </label>
+              <div class="error-form" id="emailError">
+                Please enter a valid email
+              </div>
+              <button class="cta_button">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </footer>
+    <script src="../js/new.js"></script>
+  </body>
+</html>

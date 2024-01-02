@@ -1,0 +1,46 @@
+.buy_forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  justify-content: center;
+  background-color: #022859;
+  box-shadow: 5px 5px 10px black;
+}
+
+#shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buy {
+  margin: 80px auto;
+  padding: 50px;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 55px 0;
+}
+
+@media (min-width: 600px) {
+  .shopping_cart {
+    flex-direction: row;
+    padding: 50px auto;
+    gap: 50px;
+    margin: 50px auto;
+  }
+
+  .buy {
+    padding: 50px;
+    max-width: 1000px;
+  }
+  .buy .cta_button {
+    margin: auto;
+  }
+}

@@ -1,0 +1,211 @@
+h1 {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7614d9;
+}
+
+/*Header*/
+
+header {
+  position: relative;
+  background: #022859;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+header a {
+  padding: 15px;
+  display: block;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  position: absolute;
+  background-color: #0487d9;
+  top: 64px;
+  padding: 0px;
+  width: 100%;
+}
+
+header nav {
+  padding: 0px;
+}
+
+nav,
+#hamburger.menu {
+  display: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.active {
+  text-decoration: underline;
+  font-size: larger;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.hamburger_icon {
+  display: block;
+  padding-left: 10px;
+}
+
+.search-box {
+  width: 40%;
+  position: relative;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.search input {
+  width: 100%;
+  border: 3px solid #0487d9;
+  border-radius: 5px;
+  height: 25px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  color: #0487d9;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+.cart {
+  font-size: 30px;
+  position: relative;
+}
+
+.cover {
+  max-width: 200px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.buy {
+  text-align: center;
+  margin: 80px auto;
+  padding: 60px;
+}
+
+.cta_button {
+  position: relative;
+  padding: 10px 24px;
+  border-radius: 25px;
+  border: none;
+  background: #0487d9;
+  color: #fff;
+  display: block;
+  margin: auto;
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 4 / 4;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.cta_button:hover {
+  text-decoration: none;
+  border: black;
+  box-shadow: 5px 5px 10px black;
+}
+@media (min-width: 1180px) {
+}
+
+@media (min-width: 550px) {
+  .hamburger_icon {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    position: relative;
+    background-color: #022859;
+    top: 0;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  .search-box {
+    width: 20%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #022859;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  gap: 30px;
+  color: #fff;
+  font-size: 1.5rem;
+}
